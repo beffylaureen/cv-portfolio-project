@@ -1,0 +1,26 @@
+.navbar {
+  background-color: navy;
+  padding: 20px;
+}
+
+.navbar_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar_item {
+  margin-right: 20px;
+}
+
+.navbar_link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.navbar_link:hover {
+  color: aquamarine;
+}
