@@ -3,7 +3,7 @@ import resumeFile from "../assets/Resume.pdf";
 
 const ResumePage = () => {
   return (
-    <div>
+    <div id="resumeContainer">
       <h1>Resume</h1>
       <h2>Work Experience</h2>
         <ul>
