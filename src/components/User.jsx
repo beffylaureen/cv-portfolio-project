@@ -14,10 +14,14 @@ export default function User(props){
     <>
    {<h1>About Me</h1>}
       <div>
-        <img src="../../src/assets/IMG_2048.jpg" alt="Me" style={imageStyle}/>
+      
         <p>
-            After a number of years in Brokerage Operations, I am persuing a new career in web development.
+            After a number of years in Brokerage Operations, I am pursuing a new career in web development.
         </p>
+        <p>
+            In my spare time I enjoy knitting.  Check out my Instagram page to view some of my knitting projects.
+        </p>
+        <img src="../../src/assets/IMG_2048.jpg" alt="Me" style={imageStyle}/>
       </div>
 
 
