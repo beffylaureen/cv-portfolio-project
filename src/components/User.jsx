@@ -1,4 +1,5 @@
 import React from "react";
+import Me from "../assets/IMG_2048.jpg";
 
 export default function User(props){
 
@@ -21,7 +22,7 @@ export default function User(props){
         <p>
             In my spare time I enjoy knitting.  Check out my Instagram page to view some of my knitting projects.
         </p>
-        <img src="../../src/assets/IMG_2048.jpg" alt="Me" style={imageStyle}/>
+        <img src={Me} alt="Me" style={imageStyle}/>
       </div>
 
 
