@@ -23,6 +23,11 @@
   padding: 10px;
 }
 
+a.active {
+  font-weight: bold;
+  color: aquamarine;
+}
+
 .navbar_link:hover {
   color: aquamarine;
 }

@@ -1,19 +1,35 @@
-.form {
+form {
   display: flex;
-  flex-wrap: column;
+  flex-direction: column;
   max-width: 400px;
+  width: 400px;
   margin: 0 auto;
 }
 
-.form input,
-.form textarea {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: white;
-  color: black;
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 16px auto;
+
 }
 
-.form button {
+form label {
+  text-align: left;
+  align-self: flex-start;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white !important;
+  color: black;
+  min-width: 100%;
+  border: 1px solid rgba(0,0,0,.5)
+}
+
+form button {
   padding: 10px 20px;
   background-color: navy;
   color: floralwhite;
@@ -21,7 +37,7 @@
   cursor: pointer;
 }
 
-.form button:hover {
+form button:hover {
   color:aquamarine;
   
 }

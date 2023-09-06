@@ -11,7 +11,7 @@ function Navbar({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange('About')}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'About' ? 'navbar_link active' : 'navbar_link'}
+            className={currentPage === 'About' ? 'navbar_link' : 'navbar_link'}
           >Beth L. Haynes</a>
         </li>
         <li className="navbar_item">

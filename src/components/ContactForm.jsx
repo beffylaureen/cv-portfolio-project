@@ -36,7 +36,7 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div className = "formField">
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -46,7 +46,7 @@ const ContactForm = () => {
         />
         {nameError && <p className="error">{nameError}</p>}
       </div>
-      <div>
+      <div className = "formField">
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -56,7 +56,7 @@ const ContactForm = () => {
         />
         {emailError && <p className="error">{emailError}</p>}
       </div>
-      <div>
+      <div className = "formField">
         <label htmlFor="message">Message:</label>
         <textarea
           id="message"
